@@ -1,0 +1,66 @@
+sitename: "Site Name!"
+baseURL: "/"
+languageCode: zh-tw
+title: "Do Niou"
+author: "Eva Hsu"
+
+enableEmoji: true
+hasCJKLanguage: false
+pygmentsstyle: "tango"
+pygmentscodefences: true
+
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+# Links of the navbar
+menu:
+  primary:
+    - name: Home
+      url: /
+      weight: 1
+    - name: About me♥
+      url: /about
+      weight: 2
+
+# You can add languages!
+# do not expect it to work out of the box
+# https://gohugo.io/content-management/multilingual/
+defaultContentLanguage: en
+languages:
+  en:
+    LanguageName: English
+    # contentDir: content/blog/en
+
+params:
+  # you should change this
+  # or delete it with /layout/blog/single.html
+  # the latter is recommended
+  # baseURL: "https://m1cr0xf7.github.io/kaslaanka/"
+  sitename: "Eva's Home"
+  # it will produce: copyrights (c) 2022 joe
+  copyrights: Eva Hsu
+  # path to the favicon directory
+  # see ./layouts/_defaults/baseof.html line #30 to line #37
+#  faviconpath: "/img/favicon"
+  # projects will show in the index page
+  # myprojects:
+  #   - name: "Totally Awesome Project"
+  #     description: "Machine Learning Magic!!!"
+  #     url: https://example.com
+  #   - name: "Kaslaanka"
+  #     description: "The best hugo theme ever!!!"
+  #     url: https://github.com/M1cR0xf7/kaslaanka
+  # link to more projects
+  # show your github repositories as example
+  # or create your own page.
+  projectsURL: https://example.com
+
+  # a brief about me
+  brief_about: <center>Eva is a kawaii girl</center>
+
+# and don't forget
+theme: kaslaanka
+
