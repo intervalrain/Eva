@@ -1,0 +1,111 @@
+# Default Theme light/dark/auto
+baseURL: "https://intervalrain.github.io/Eva"
+title: "豆蔦"
+paginate: 5
+theme: "hugo-PaperMod"
+languageCode: "zh-tw"
+
+# menu
+menu:
+  main:
+    - identifier: search
+      name: "搜尋"
+      url: /search
+      weight: 1
+    - identifier: aboutme
+      name: "關於我"
+      url: /aboutme
+      weight: 2
+    - identifier: archives
+      name: "文章"
+      url: /archives
+      weight: 3
+    - identifier: categories
+      name: "分類"
+      url: /categories
+      weight: 4
+    - identifier: tags
+      name: "標籤"
+      url: /tags
+      weight: 5
+params:
+  env: production
+  description: "酥魚的日記"
+  keywords: ["酥魚", "荳蔦"]
+  author: "酥魚"
+  showToc: true
+  TocOpen: true
+  math: true
+  mermaid: true
+  hidemeta: false
+  searchHidden: false
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+  comments: true
+  assets:
+    favicon: "/image/douniao.jpg"
+    favicon16x16: "/image/douniao.jpg"
+    favicon32x32: "/image/douniao.jpg"
+    apple_touch_icon: "/image/douniao.jpg"
+    safari_pinned_tab: "/image/douniao.jpg"
+
+  label:
+    text: "豆蔦 Studio"
+    icon: "/image/douniao.jpg"
+    iconHeight: 50
+
+# profile-mode
+  profileMode:
+    enabled: true
+    title: "<Title>"
+    subtitle: "酥魚的小空間"
+    imageUrl: "/image/douniao.jpg"
+    imageTitle: "douniao"
+    imageWidth: 360
+    imageHeight: 360
+    buttons:
+      - name: "關於我"
+        url: "/aboutme"
+      - name: "文章"
+        url: "/archives"
+      - name: "分類"
+        url: "/categories"
+      - name: "標籤"
+        url: "/tags"
+      - name: "豆蔦"
+        url: "/douniao"
+  
+  socialIcons:
+    - name: facebook
+      url: "https://www.facebook.com/she.is.Ava"
+    - name: instagram
+      url: "https://instagram.com/iamevahsu"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+
+  # editPost:
+  #   URL: "https://github.com/intervalrain/intervalrain.github.io/tree/main/content/"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+# search Page
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
