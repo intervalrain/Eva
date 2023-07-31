@@ -8,7 +8,7 @@ description: "關於我"
 ---
 
 # 關於我 | Eva Hsu
-{{< img "/image/girl.png" "300" >}}
+{{< img "../images/girl.png" "300" >}}
 + 本名: 許書瑜
 + 生日: 1993/6/10
 + 星座: 雙子座
@@ -18,7 +18,7 @@ description: "關於我"
 
 ---
 # 關於豆蔦 | Dou Niao
-{{< img "/image/douniao.jpg" "300" >}}
+{{< img "../images/douniao.jpg" "300" >}}
 https://www.instagram.com/douniao.studio/
 > 酥魚天馬行空的小天地，希望可以和你在這裡一起共創美好
 + 豆蔦是伏石蕨的日文

@@ -45,23 +45,23 @@ params:
   ShowCodeCopyButtons: true
   comments: true
   assets:
-    favicon: "/image/douniao.jpg"
-    favicon16x16: "/image/douniao.jpg"
-    favicon32x32: "/image/douniao.jpg"
-    apple_touch_icon: "/image/douniao.jpg"
-    safari_pinned_tab: "/image/douniao.jpg"
+    favicon: "images/douniao.jpg"
+    favicon16x16: "images/douniao.jpg"
+    favicon32x32: "images/douniao.jpg"
+    apple_touch_icon: "images/douniao.jpg"
+    safari_pinned_tab: "images/douniao.jpg"
 
   label:
     text: "豆蔦 Studio"
-    icon: "/image/douniao.jpg"
+    icon: "images/douniao.jpg"
     iconHeight: 50
 
 # profile-mode
   profileMode:
     enabled: true
-    title: "<Title>"
+    title: "豆蔦 Studio"
     subtitle: "酥魚的小空間"
-    imageUrl: "/image/douniao.jpg"
+    imageUrl: "images/douniao.jpg"
     imageTitle: "douniao"
     imageWidth: 360
     imageHeight: 360
@@ -74,8 +74,6 @@ params:
         url: "/categories"
       - name: "標籤"
         url: "/tags"
-      - name: "豆蔦"
-        url: "/douniao"
   
   socialIcons:
     - name: facebook
