@@ -45,15 +45,15 @@ params:
   ShowCodeCopyButtons: true
   comments: true
   assets:
-    favicon: "images/douniao.jpg"
-    favicon16x16: "images/douniao.jpg"
-    favicon32x32: "images/douniao.jpg"
-    apple_touch_icon: "images/douniao.jpg"
-    safari_pinned_tab: "images/douniao.jpg"
+    favicon: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
+    favicon16x16: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
+    favicon32x32: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
+    apple_touch_icon: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
+    safari_pinned_tab: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
 
   label:
     text: "豆蔦 Studio"
-    icon: "images/douniao.jpg"
+    icon: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
     iconHeight: 50
 
 # profile-mode
@@ -61,7 +61,7 @@ params:
     enabled: true
     title: "豆蔦 Studio"
     subtitle: "酥魚的小空間"
-    imageUrl: "images/douniao.jpg"
+    imageUrl: "https://github.com/intervalrain/Eva/blob/main/content/images/douniao.jpg?raw=true"
     imageTitle: "douniao"
     imageWidth: 360
     imageHeight: 360
